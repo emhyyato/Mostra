@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <!--Css-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Series</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="Main.css">
+    <script type="text/javascript" src="js.js"></script>
+    <!--Utilizei sites como W3school, dev media-->
+</head>
+
+<body onload="showDivs(1)">
+
+    <!--cabeçalho -->
+
+    <header>
+        <div id="hearder_titulo" class="center">
+
+        </div>
+    </header>
+    <nav>
+        <!--Menu horizontal-->
+    <div class="navbar">
+        <a class="active"href="#home"><img src="imagens/casa.png"></a>
+        <div class="subnav">
+            <button class="subnavbtn">História<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="pagina3.html">Guerra Mundiais</a>
+                <a href="#">Colonizações</a>
+                <a href="#">Revolução</a>
+                <a href="#">Ditaduras</a>
+                <a href="#">Idade Média</a>
+                <a href="#">Impérios</a>
+                <a href="#">Guerra Civíl</a>
+                <a href="#">Guerra Fria</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Artes<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="pagina2.html">Fantasia</a>
+                <a href="#">Romance</a>
+                <a href="#">Ação</a>
+                <a href="#">Terror</a>
+                <a href="#">Ficção</a>
+                <a href="#">Comédia</a>
+                <a href="#">Drama</a>
+                <a href="#">Animação</a>
+                <a href="#">Documentário</a>
+                <a href="#">Suspense</a>
+            </div>
+        </div>
+        <a href="#Cine">Cinematografia</a>
+    
+
+        <div id="divBusca">
+            <form action="/" method="get" class="form">  
+                <input type="search" id="txtBusca" placeholder="Buscar..."/>
+                <button type="submit" id="btnBusca"><img src="imagens/icon-pesquisa.png" draggable="false" alt="Buscar"> </button> 
+            </form>     
+        </div>
+
+
+
+    </div>
+
+        </nav>
+
+
+
+
+
+    <main id="main">
+        <section id="content">
+            <div id="container">
+
+                <h1>Mostra de Tecnologia</h1>
+                <div class="w3-content w3-display-container" style="max-width:800px">
+                    <img class="mySlides" src="imagens/logo 1.png" style="width:100%">
+                    <img class="mySlides" src="imagens/logo 2.png" style="width:100%">
+                    <img class="mySlides" src="imagens/logo 3.png" style="width:100%">
+                    
+                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                    </div>
+                  </div>
+                
+                <br>
+               <h1>Contatos</h1>
+               <p id="text">
+                   Dúvidas? Sugestões? Entre em contato conosco através dos nossos Instagrans, e acesse o site da nossa escola!<br><br>
+                Clique no link para ter acesso ao site da Instituição Funec Riacho &rarr; <a href="http://funecriacho.com.br/escola.php">Funec Riacho</a>
+                <br>
+                <br>
+                <strong><em>Instagrans:</em></strong>
+                <br>
+                <br>
+                @annaleticiabitencourt
+                <br>
+                @_emhyyato
+                <br>
+                @geopsl
+                <br>
+                @gustavo.txd
+                <br>
+                @_mikerdk
+                <br>
+                @nicolas_picacio
+
+
+               </p>
+            </div>
+        </section>
+    </main>
+    <!--Rodapé-->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+
+                <a href="#">História</a>
+
+                <a href="#">Artes</a>
+
+                <a href="#">Cinematografia</a> 
+
+            
+            </p>
+
+            <p>Daily Series &copy; 2021</p>
+        </div>
+    </footer>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    background-image: url(imagens/R.jpg);
+   
+    /* imagem improvisada */
+}
+
+/* menu horizontal */
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.navbar a {
+    float: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    padding: 16px 24px;
+    text-decoration: none;
+
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: white;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+
+}
+
+.subnav .subnavbtn {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 24px;
+    background-color: inherit;
+
+
+
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: #C0C0C0;
+    border-bottom: 4px solid black;
+    text-decoration: none;
+
+
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: left;
+    color: black;
+    text-decoration: none;
+
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+/*conteudo*/
+#text {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: justify;
+    overflow: auto;
+    
+}
+a{
+  text-decoration: none;
+  color:#8f1d1d;
+}
+
+h1 {
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    color:black;
+    text-align: center;
+
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+
+}
+#titulo{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-shadow:  0 0 0.2em #87CEEB;
+  
+}
+#img1{
+  width:52%;
+  height: 20%;
+  border: solid 3px;
+  color: #000000;
+}
+#img1, #text{
+  float: left;
+}
+figcaption{
+  color:#4F4F4F;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  
+}
+.form
+{
+  display: flex;
+  flex-direction: row;
+}
+
+/* barra de pesquisa*/ 
+#divBusca{
+  background-color:#000000;
+  border:solid 2px;
+  border-radius:15px;
+  width:350px;
+  height:40px;
+  float:right;
+  margin-top:1%;
+}
+
+#txtBusca{
+  float:center;
+  background-color:#FFFFFF;
+  padding-left:5px;
+  font-family:sans-serif;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:300px;
+  outline: none;
+  border-radius: 100px;
+}
+
+#btnBusca
+{
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+}
+#btnBusca img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+/* banner rotativo */
+.mySlides {
+  display:none}
+.w3-left, .w3-right, .w3-badge 
+{cursor:pointer}
+.w3-badge 
+{height:13px;
+  width:13px;
+  padding:0;
+}
